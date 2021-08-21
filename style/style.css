@@ -1,0 +1,76 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    cursor: pointer;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center center;
+    color: #fff;
+}
+.time_display h1{
+    font-size:70px;
+}
+.time_display h3{
+    font-size:40px;
+}
+.msg{
+    margin-top:20px;
+}
+.msg h2{
+    font-size:50px;
+    text-transform:capitalize;
+}
+.msg h2 #name{
+    font-size:40px;
+    color:rgb(148, 245, 3);
+    text-transform:capitalize;
+}
+.info{
+    margin-top:20px;
+}
+.info h2{
+    font-size:40px;
+    text-transform:capitalize;
+}
+.info h3{
+    margin-top:5px;
+    font-size:25px;
+    text-transform:capitalize;
+}
+@media(max-width:500px){
+    .time_display h1{
+        margin-top:10px;
+        font-size:40px;
+    }
+    .time_display h3{
+        font-size:20px;
+    }
+    .msg{
+        margin-top:10px;
+    }
+    .msg h2{
+        font-size:30px;
+    }
+    .msg h2 #name{
+        font-size:20px;
+    }
+    .info{
+        margin-top:10px;
+    }
+    .info h2{
+        font-size:20px;
+    }
+    .info h3{
+        margin-top:3px;
+        font-size:16px;
+    }
+}
